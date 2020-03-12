@@ -1,0 +1,100 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(187, 138, 74);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 500px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.jumbotext {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.imageview {
+  height: 400px;
+  width: 400px;
+}
+.container1 {
+  width: 90%;
+  height: 550px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 80px;
+}
+.divcol {
+  height: 400px;
+  width: 400px;
+  background-color: bisque;
+  padding: 30px;
+}
+.divimage {
+  height: 100%;
+  width: 100%;
+}
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+.footer1 {
+  text-align: center;
+  background-color: burlywood;
+}
+.link1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.link2 {
+  color: white;
+}
